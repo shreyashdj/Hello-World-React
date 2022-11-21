@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  background-color: rgb(26, 23, 215)
 }
 
 h1 {
@@ -10,7 +10,11 @@ h1 {
 img {
   display: block;
   margin: 0 auto;
-  width: 25%;
+  width: 35%;
+}
+
+.input {
+  text-align: center;
 }
 
 .error-output {
@@ -18,4 +22,19 @@ img {
   font-size: 12px;
   font-style: italic;
   color: red;
+}
+
+.WecomePage {
+  width: 600px;
+  margin: 0 auto;
+  background-color: peru;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
 }
